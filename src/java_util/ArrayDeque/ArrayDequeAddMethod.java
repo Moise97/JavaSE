@@ -72,5 +72,20 @@ public class ArrayDequeAddMethod {
             System.out.println("Number: " + i);
         }
 
+        LOGGER.log(Level.INFO, "Try to add an element at the end of deque using offer(), offerFirst() and " +
+                "offerLast() methods");
+        try{
+            integers1.offerFirst(50);
+            integers1.offer(300);
+            integers1.offerLast(400);
+        }catch (NullPointerException e){
+            LOGGER.log(Level.WARNING, "Exception occur during offer() method", e);
+        }
+
+        LOGGER.info("Print all the elements available in deque:");
+        for (Integer i:integers1
+        ) {
+            System.out.println("Number: " + i);
+        }
     }
 }
