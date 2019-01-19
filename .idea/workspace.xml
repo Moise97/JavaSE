@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce8e374-2b93-4ffa-a63a-9b1e6d4d635f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/first_java_program/HelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/java_util/ArrayDeque/ArrayDequeAddFirstMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/java_util/ArrayDeque/ArrayDequeAddMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeAddMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/java_util/ArrayDeque/ArrayDequeAddMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/java_util/ArrayDeque/ArrayDequeAddMethod.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +14,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeAddMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="441">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequePopMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeRemoveMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +67,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/first_java_program/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeAddFirstMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeClearMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeCloneMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeContainsMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeIterator.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeElementMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeSizeMethod.java" />
         <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeAddMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeGetMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequePollMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequePopMethod.java" />
+        <option value="$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeRemoveMethods.java" />
       </list>
     </option>
   </component>
@@ -56,7 +87,9 @@
     <option name="width" value="651" />
     <option name="height" value="748" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -96,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547894229304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547909969845" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,20 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayDequeAddMethod">
-    <configuration name="ArrayDequeAddFirstMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_util.ArrayDeque.ArrayDequeAddFirstMethod" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_util.ArrayDeque.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ArrayDequeRemoveMethods">
     <configuration name="ArrayDequeAddMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_util.ArrayDeque.ArrayDequeAddMethod" />
       <module name="JavaSE" />
@@ -137,12 +157,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first_java_program.HelloWorld" />
+    <configuration name="ArrayDequeGetMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_util.ArrayDeque.ArrayDequeGetMethod" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="first_java_program.*" />
+          <option name="PATTERN" value="java_util.ArrayDeque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDequePollMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_util.ArrayDeque.ArrayDequePollMethod" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_util.ArrayDeque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDequePopMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_util.ArrayDeque.ArrayDequePopMethod" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_util.ArrayDeque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDequeRemoveMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_util.ArrayDeque.ArrayDequeRemoveMethods" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_util.ArrayDeque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,9 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDequeRemoveMethods" />
+        <item itemvalue="Application.ArrayDequePopMethod" />
+        <item itemvalue="Application.ArrayDequePollMethod" />
+        <item itemvalue="Application.ArrayDequeGetMethod" />
         <item itemvalue="Application.ArrayDequeAddMethod" />
-        <item itemvalue="Application.ArrayDequeAddFirstMethod" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -180,17 +241,17 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24980666" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24980666" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.59097975" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.87247276" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="DB Execution Console" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.7325039" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.87402797" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39968896" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -256,10 +317,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeClearMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeCloneMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeContainsMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeElementMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="46" column="86" lean-forward="true" selection-start-line="46" selection-start-column="86" selection-end-line="46" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeSizeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeGetMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" column="71" lean-forward="true" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequePollMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="58" column="88" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequePopMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeAddMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="441">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_util/ArrayDeque/ArrayDequeRemoveMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
